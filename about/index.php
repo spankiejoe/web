@@ -26,7 +26,7 @@
         <p>The source code of the project is licensed under the <a href="http://opensource.org/licenses/BSD-2-Clause">2-clause BSD</a> license agreement:
 
         <pre>
-        Copyright (c) 2014, Ralf Biedert
+        Copyright (c) 2014, Ralf Biedert - http://gaze.io
         All rights reserved.
 
         Redistribution and use in source and binary forms, with or without
