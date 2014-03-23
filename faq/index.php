@@ -46,7 +46,7 @@
 
 
     <div class="container">
-        <h2>How Can I Use My Tracker?</h2>
+        <h2>How Can I Use My Tracker?</h2><a name="I_MOUSEFALLBACK"></a>
         <p>If you visit a web page that uses gaze.io you might get a message that it could not
         find your eye tracker. This means either you have not connected your eye tracker
         and started the <code>relay</code>, or that the relay
