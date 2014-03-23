@@ -26,7 +26,7 @@
 
         <p id="showbar">
             <a href="/examples/fft/"><img class="demo" id="demofft" src="/examples/fft.png"/></a>
-            <a href="/examples/glympse/"><img class="demo" id="demoglympse" src="/examples/glympse.jpg"/></a>
+            <a href="/examples/glimpse/"><img class="demo" id="demoglimpse" src="/examples/glimpse.jpg"/></a>
             <a href="/examples/heatmap/"><img class="demo" id="demoheatmap" src="/examples/heatmap.jpg"/></a>
             <a href="/examples/reading/"><img class="demo" id="demoreading" src="/examples/reading.jpg"/></a>
         </p>
@@ -106,8 +106,8 @@
         },
 
 
-        demoglympse: {
-            title: "Glympse",
+        demoglimpse: {
+            title: "Glimpse",
             description: "Inspired by <a href='http://www.spritzinc.com/'>Spritz</a> we \
             thought their demo would be even more interesting if it were gaze aware.<br/> <br/>\
             \
