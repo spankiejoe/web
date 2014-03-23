@@ -29,6 +29,7 @@
             <a href="/examples/glimpse/"><img class="demo" id="demoglimpse" src="/examples/glimpse.jpg"/></a>
             <a href="/examples/heatmap/"><img class="demo" id="demoheatmap" src="/examples/heatmap.jpg"/></a>
             <a href="/examples/reading/"><img class="demo" id="demoreading" src="/examples/reading.jpg"/></a>
+            <center style="font-size:75%;">Click to launch demo, hover for details.</center>
         </p>
 
         <br/><br/>
