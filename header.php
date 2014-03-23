@@ -67,8 +67,10 @@
             </li>
           </ul>
           <div class="navbar-form navbar-right">
+            <a href="http://downloads.gaze.io/gaze.io/gaze.io-0.5.0.zip">
             <button type="submit" class="btn btn-success">Download</button>
-            <span class="version">(0.8.0)</span>
+            </a>
+            <span class="version">(0.5.0)</span>
           </div>
         </div><!--/.navbar-collapse -->
       </div>
