@@ -22,7 +22,7 @@
     </div>
 
     <div class="container">
-        <h2>Code</h2><a name="legal"></a>
+        <h2>Source Code</h2><a name="legal"></a>
         <p>The source code of the project is licensed under the <a href="http://opensource.org/licenses/BSD-2-Clause">2-clause BSD</a> license agreement:
 
         <pre>
