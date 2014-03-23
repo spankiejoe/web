@@ -1,0 +1,1 @@
+To preview the web page locally run `php -S localhost:8000` from within this projects root. PHP needs to be installed (on Mac OS I am using [homebrew](http://brew.sh/) for that, no idea about the other platforms).
