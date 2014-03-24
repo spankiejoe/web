@@ -82,6 +82,15 @@
  -->
 <div>
 
+<script>
+    $(document).ready(function() {
+        setTimeout(function() {
+            window.scrollBy(0,-150);
+        }, 200)
+
+    });
+</script>
+
 <?php
   include '../footer.php';
 ?>
