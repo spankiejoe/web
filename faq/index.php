@@ -53,9 +53,10 @@
         could not be found. First, download the current relay:<br/><br/>
 
         <center>
-            <a href="http://downloads.gaze.io/relay/relay-0.1.0.zip">
-            <button type="submit" class="btn btn-info">Download Current Relay</button>
-            </a>
+            <a href="http://downloads.gaze.io/relay/relay-0.2.0.exe">
+            <button type="submit" class="btn btn-info">Download Relay</button>
+            </a><br/>
+            <span style="font-size: 80%;">(Windows x64)</span>
         </center>
         <br/>
         Then, proceed according to these steps.<br/><br/>
