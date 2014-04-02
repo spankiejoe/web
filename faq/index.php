@@ -59,9 +59,12 @@
             <span style="font-size: 80%;">(v0.2.1, Windows x64)</span>
         </center>
         <br/>
-        Then, proceed according to these steps.<br/><br/>
+        For Tobii eye trackers, proceed according to these steps.<br/><br/>
             <ul>
-                <li>Download and configure the relay (see image below).</li>
+                <li>Make sure you have the <a href="http://www.microsoft.com/en-us/download/details.aspx?id=30679">Redistributable for Visual Studio 2012 </a> installed.</li>
+                <li>Make sure you have <a href="http://support.apple.com/kb/DL999">Bonjour </a> installed.</li>
+                <li>Make sure you have the <a href="http://www.tobii.com/en/eye-tracking-research/global/support-and-downloads/?product=23724">Eye Tracker Browser</a> installed.</li>
+                <br/><span style="font-size:80%">The previous 3 steps might be optional depending on your config. However, if you are unsure or things don't work better download and run them anyway.</span><br/><br/>
                 <li>Configure your eye tracker.</li>
                 <li>Reload the page where you came from.</li>
             </ul>
@@ -70,6 +73,21 @@
         If you have a supported eye tracker and that does not work, please file a bug.
         </p>
         <br/>
+    </div>
+
+
+    <div class="container">
+        <h2>Technical Questions</h2>
+        <p>Questions you might run in to using the library or developing for it.</p>
+        <br/>
+        <p>
+            <div class="question"><a name="features"></a>Why does my tracking suddenly stop?</div><a name="W_DATASTALL"></a>
+            <div class="answer">
+            This can have several reasons. First make sure you did not accidentally unplug your eye tracker.
+            Using the <code>relay</code>, it might just have crashed, so you might want to try to restart it.
+            Information for other back ends will be updated soon.
+            </div>
+        </p>
     </div>
 
 
