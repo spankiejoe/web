@@ -67,10 +67,10 @@
             </li>
           </ul>
           <div class="navbar-form navbar-right">
-            <a href="http://downloads.gaze.io/gaze.io/gaze-0.5.2.js">
+            <a href="http://downloads.gaze.io/gaze.io/gaze-0.5.3.js">
             <button type="submit" class="btn btn-success">Download</button>
             </a>
-            <span class="version">(0.5.2)</span>
+            <span class="version">(0.5.3)</span>
           </div>
         </div><!--/.navbar-collapse -->
       </div>
