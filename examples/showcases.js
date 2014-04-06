@@ -56,32 +56,6 @@ showcase("glimpse", {
 });
 
 
-showcase("heatmap", {
-    title: "Heat Maps",
-    description: "Everyone loves heat maps. They allow for an intuitive \
-    visualization of one or many viewers, and creating one in HTML5 thanks to the \
-    awesome <a href='http://www.patrick-wied.at/static/heatmapjs/'>heatmap.js</a> \
-    library is a piece of cake. <br/><br/>\
-    \
-    The full source of this demo can be found in the \
-    <a href='https://github.com/gazeio/showcase'>GitHub showcase repository</a>.\
-    ",
-    code: "&lt;script src='gaze.js'>&lt;/script> \
-        \n&lt;script> \
-        \n  gaze.init() \
-        \n  \
-        \n  var heatmap = ... // from heatmap.js library \
-        \n  \
-        \n  // Use smooth, filtered data for the heatmap. \
-        \n  gaze.onfiltered(function(f) { \
-        \n  \
-        \n      heatmap.store.addDataPoint(f.windowX, f.windowY, 1);\
-        \n  })\
-        \n&lt;/script>\
-    "
-
-});
-
 
 showcase("reading", {
     title: "Reading / Skimming Classification",
@@ -119,6 +93,57 @@ showcase("reading", {
         \n  gaze.onreading(function(r) { \
         \n      // ... \
         \n  })\
+    \n&lt;/script>\
+    "
+});
+
+
+showcase("heatmap", {
+    title: "Heat Maps",
+    description: "Everyone loves heat maps. They allow for an intuitive \
+    visualization of one or many viewers, and creating one in HTML5 thanks to the \
+    awesome <a href='http://www.patrick-wied.at/static/heatmapjs/'>heatmap.js</a> \
+    library is a piece of cake. <br/><br/>\
+    \
+    The full source of this demo can be found in the \
+    <a href='https://github.com/gazeio/showcase'>GitHub showcase repository</a>.\
+    ",
+    code: "&lt;script src='gaze.js'>&lt;/script> \
+        \n&lt;script> \
+        \n  gaze.init() \
+        \n  \
+        \n  var heatmap = ... // from heatmap.js library \
+        \n  \
+        \n  // Use smooth, filtered data for the heatmap. \
+        \n  gaze.onfiltered(function(f) { \
+        \n  \
+        \n      heatmap.store.addDataPoint(f.windowX, f.windowY, 1);\
+        \n  })\
+        \n&lt;/script>\
+    "
+
+});
+
+
+
+
+
+
+showcase("transforms", {
+    title: "SVGs, CSS Transforms &amp; Selection",
+    description: "In this demo we apply CSS transforms to elements, \
+    track SVGs and perform selection. \
+    <br/><br/>\
+    \
+    The full source of this demo can be found in the \
+    <a href='https://github.com/gazeio/showcase'>GitHub showcase repository</a>.\
+    ",
+    code: "&lt;script src='gaze.js'>&lt;/script> \
+        \n&lt;script> \
+        \n  // If an element was selected. \
+        \n  gaze.onselect('.targets', function(e) { \
+        \n  \    $(e.element).css('color', 'red'); \
+        \n  });\
     \n&lt;/script>\
     "
 });
