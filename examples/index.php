@@ -3,7 +3,7 @@
 ?>
 
 <style type="text/css">
-    #showbar img { width: 210px;}
+    #showbar img { width: 210px; margin: 2px; }
 
     div.columns       { }
     div.columns div   { width: 45%;  float: left; }
