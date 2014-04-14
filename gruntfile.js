@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 
                 src: '.',
                 dest: '/www.gazeio/',
-                exclusions: ['./**/.*', './**/node_modules', 'gruntfile.js', 'package.json' ]
+                exclusions: ['./**/.git*', './**/.DS*', './**/.ftp*' , './**/node_modules', 'gruntfile.js', 'package.json' ]
             },
         },
 
