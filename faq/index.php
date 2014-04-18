@@ -46,7 +46,7 @@
 
 
     <div class="container">
-        <h2>How Can I Use My Tracker?</h2><a name="I_MOUSEFALLBACK"></a>
+        <h2 id="I_MOUSEFALLBACK">How Can I Use My Tracker?</h2></a>
         <p>If you visit a web page that uses gaze.io you might get a message that it could not
         find your eye tracker. This means either you have not connected your eye tracker
         and started the <code>relay</code>, or that the relay
@@ -102,11 +102,15 @@
 <div>
 
 <script>
+    // In case we had an error code, try to scroll there ...
     $(document).ready(function() {
-        setTimeout(function() {
-            window.scrollBy(0,-150);
-        }, 200)
+        var target = location.search.substring(1)
+        var top = $('#' + target).offset().top;
 
+        if(top) {
+            // Remember to scroll back a little because of our fixed header bar
+            $(document.body).scrollTop(top - 120);
+        }
     });
 </script>
 
